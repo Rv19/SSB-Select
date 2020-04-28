@@ -1,0 +1,252 @@
+.header-color {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #000000,#000000, #223679); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #000000,#000000, #223679); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+
+.landing-grid {
+  background-image: url("/walla.jpeg");
+  text-align: center;
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  margin-left: 7em;
+  margin-top: 1em;
+  width: 100%;
+  display: flex;
+  background-color: aqua;
+}
+
+.projects-grid1{
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f8fbfd,#557faa); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f8fbfd,#557faa); 
+}
+
+.projects-grid2 {
+  display: flex;
+  padding-top: 2em;
+  
+}
+
+.stack-grid1{
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f8fbfd,#557faa); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f8fbfd,#557faa); 
+  height: 100%;
+  width: 200%;
+}
+
+.stack-grid2 {
+  display: flex;
+padding-bottom: 2ex;
+  padding-top: 2em;
+}
+
+.contact-grid{
+display:flex;
+}
+.overflow{
+  overflow: hidden;
+}
+.card-img-top{
+  transition:transform 0.5s ease;
+}
+.card-img-top:hover{
+  transform: scale(0.7);
+}
+.card:hover{
+  box-shadow:5px 10px 20px 1px rgba(0,0,0,253)!important;
+  transform:
+   scale(1.1);
+}
+.card-img-top-resume:hover{
+  transform: scale(1.05);
+  box-shadow:5px 10px 20px 1px rgba(0,0,0,253)!important;
+}
+/* Resume Page css */
+.resume-right-col {
+  background: rgb(0, 0, 0);
+  color: white;
+  padding: 1em;
+}
+.resume-right-col2 {
+  background: rgb(95, 90, 87);
+  color: white;
+  margin: auto;
+ 
+
+}
+.achieveBack{
+background-color: #14191f;
+width: 100%;
+height: 100%;
+
+}
+
+/* contact page css */
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+.asd{
+  text-align: center;
+  
+}
+.resume-grid {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 900px;
+  background: white;
+  color: black;
+  margin-bottom: px;
+}
+
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+.ach-grid {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  padding: 0.5em;
+  color: #000000;
+  
+}
+.contact-gridr {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 50px;
+  padding-right: 5rem;
+}
+
+.trial{
+  height: 60%;
+  width: 90%;
+  scroll-padding-top: 2em;
+  margin: auto;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+.next{
+  display: flex;
+  margin: auto;
+}
+.font-list{
+  font-size: 30px;
+text-align: center;
+font-weight: bold;
+  margin-left: 2em;
+}
+
+
+/* contact page css */
+
+.avatar-img {
+  height: 250px;
+  padding-top: 2em;
+}
+.avatar-img:hover{
+  height: 250px;
+  transform:
+   scale(1.05);
+  padding-top: 2em;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  height: 95%;
+  width: 75%;
+  scroll-padding-top: 2em;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.card1{
+  padding:2em;
+  display: inline;
+}
+.card-title{
+  margin: auto;
+  padding-left: 5em;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 75%;
+  display: flex;
+margin: auto;
+padding: 0.5em;
+  /* margin: auto; */
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 1.2em;
+}
+
+.social-links i {
+  display: flex;
+  color: white;
+  font-size: 4em;
+margin: auto;
+}
+
+.submit{
+  width: 100%;
+  margin: auto;
+  padding-bottom: em ;
+}
