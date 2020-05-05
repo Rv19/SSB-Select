@@ -1,16 +1,27 @@
 import React,{Component} from 'react';
 import axios from 'axios';
-import {toast} from 'react-toastify'
+import styled from 'styled-components';
 
-toast.configure()
+const Container=styled.div`
+background-color:white;
+color:black;
+padding:16px;
+position:absolute;
+top:${props=>props.top}px;
+right:36px;
+z-index:999;
+transition:top 0.5s ease;`;
+ 
 class Form extends Component{
 	constructor(props){
 		super(props)
 		this.state={
 			name:'',
 			Email:'',
-			Mobile:''
-		}
+			Mobile:'',
+			top:-209,
+		};
+		this.timeout=null;
 	}
 
 	changeHandler=(e)=>{
@@ -33,11 +44,19 @@ this.state).then(response =>
 		Email:'',
 		Mobile:''
 	  });
-	  toast("OUR valur sdfnjdsfnkjsdfj")
 
-	  
+}
 
-
+showNotification=()=>{
+	this.setState({
+		top:516,
+	},()=>{
+		setTimeout(()=>{
+			this.setState({
+				top:-200
+			});
+		},3000);
+	});
 }
 
 
@@ -72,10 +91,16 @@ this.state).then(response =>
 
 </div>
 <div className="submit">
-<button type="submit" class="btn btn-primary">Submit</button>
+<React.Fragment>
+               
+             
+<button type="submit" class="btn btn-primary" onClick={this.showNotification}>Submit</button>
+<Container top={this.state.top}>Thank You Soon our Team Will Contact You</Container>
 <div className="input-group mb-3">
 <small id="emailHelp" class="form-text text-muted">We'll never share your Email And Number with anyone else.</small>	
 </div>
+
+             </React.Fragment>
 </div>
 
 
