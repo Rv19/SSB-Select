@@ -4,6 +4,9 @@ import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 class Whyssb extends Component{
     render(){
         return(
+          <div>
+
+         
 <div className="achieveBack">
 <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -13,10 +16,11 @@ class Whyssb extends Component{
   </ol>
   
   <div class="carousel-inner">
+    <h3 className="headingdetails">Indian Army</h3>
     <div class="carousel-item active">
     <Grid>
             <Cell col={12}>
-      <img src="put1.jpg" class="d-block w-100" width ="200px"alt="..."/>
+      <img src="army1.jpeg" class="d-block w-100" width ="200px"alt="..."/>
       <div class="carousel-caption d-none d-sm-block">
       </div>
       </Cell>
@@ -26,7 +30,7 @@ class Whyssb extends Component{
     <div class="carousel-item ">
     <Grid>
             <Cell col={12}>
-      <img src="put2.jpeg" class="d-block w-100" alt="..."/>
+      <img src="army2.jpeg" class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-sm-block">
       </div>
       </Cell>
@@ -36,7 +40,7 @@ class Whyssb extends Component{
     <div class="carousel-item ">
     <Grid>
             <Cell col={12}>
-      <img src="put3.jpeg" class="d-block w-100" alt="..."/>
+      <img src="army3.jpeg" class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-sm-block">
       </div>
       </Cell>
@@ -46,17 +50,104 @@ class Whyssb extends Component{
   </div>
   
 
-<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only" >Next</span>
-  </a>
   </div>
   </div>
-       
+
+  <div className="achieveBack">
+  
+<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#zero" data-slide-to="0" class="active"></li>
+    <li data-target="#one" data-slide-to="1"></li>
+    <li data-target="#two" data-slide-to="2"></li>
+  </ol>
+  
+  <div class="carousel-inner">
+  <h3 className="headingdetails">Indian Navy</h3>
+    <div class="carousel-item active">
+    <Grid>
+            <Cell col={12}>
+      <img src="navy1.jpeg" class="d-block w-100" width ="200px"alt="..."/>
+      <div class="carousel-caption d-none d-sm-block">
+      </div>
+      </Cell>
+     
+      </Grid>
+    </div>
+    <div class="carousel-item ">
+    <Grid>
+            <Cell col={12}>
+      <img src="navy2.jpeg" class="d-block w-100" alt="..."/>
+      <div class="carousel-caption d-none d-sm-block">
+      </div>
+      </Cell>
+     
+      </Grid>
+    </div>
+    <div class="carousel-item ">
+    <Grid>
+            <Cell col={12}>
+      <img src="navy3.jpeg" class="d-block w-100" alt="..."/>
+      <div class="carousel-caption d-none d-sm-block">
+      </div>
+      </Cell>
+     
+      </Grid>
+    </div>
+  </div>
+  
+
+
+  </div>
+  </div>
+  <div className="achieveBack">
+  
+<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#zero" data-slide-to="0" class="active"></li>
+    <li data-target="#one" data-slide-to="1"></li>
+    <li data-target="#two" data-slide-to="2"></li>
+  </ol>
+  
+  <div class="carousel-inner">
+  <h3 className="headingdetails">Indian Airforce</h3>
+    <div class="carousel-item active">
+    <Grid>
+            <Cell col={12}>
+      <img src="air1.jpeg" class="d-block w-100" width ="200px"alt="..."/>
+      <div class="carousel-caption d-none d-sm-block">
+      </div>
+      </Cell>
+     
+      </Grid>
+    </div>
+    <div class="carousel-item ">
+    <Grid>
+            <Cell col={12}>
+      <img src="air2.jpeg" class="d-block w-100" alt="..."/>
+      <div class="carousel-caption d-none d-sm-block">
+      </div>
+      </Cell>
+     
+      </Grid>
+    </div>
+    <div class="carousel-item ">
+    <Grid>
+            <Cell col={12}>
+      <img src="air3.jpeg" class="d-block w-100" alt="..."/>
+      <div class="carousel-caption d-none d-sm-block">
+      </div>
+      </Cell>
+     
+      </Grid>
+    </div>
+  </div>
+  
+
+  </div>
+  </div>
+
+  </div> 
         )
    }
 }

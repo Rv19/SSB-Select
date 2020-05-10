@@ -55,10 +55,10 @@ We can't teach you for SSB and cant guarantee your selection but we all can help
 
 <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
 <h5>Why monthly fees : 100rs</h5>
-<p>Want you to achieve that Plus on your chest number.We really want to help others thats why we want people who really working towards their aim and will take part seriously because that feel of preparing for SSB have its own value.So we just keep 100rs entry in Group(for per month), Because we dont want that due to someone(who just join for fun) will ruin all others preparation to overcome that only we make a entry fees.
+<p>Want you to achieve that Plus on your chest number.We really want to help others thats why we want people who really working towards their aim and will take part seriously because that feel of preparing for SSB have its own value.So we just keep 100rs entry in Group(for per month), Because We dont want that due to someone(who just join for fun) will ruin all others preparation to overcome that only we make a entry fees.
 
 
-And we can understand too that you cant trust us without demo so thats why our batch will be free for demo for first three days.Try it if u like it then only continue.
+And we can understand too that you cant trust us without demo so thats why our batch will be free for demo for first three days.Try It If u like it then only continue.
 <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
 Hope we will see you soon and join now before the group gets filled.(Separate group will be created for Girls)</p>
             </p>

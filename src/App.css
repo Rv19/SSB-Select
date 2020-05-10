@@ -13,6 +13,10 @@
   width: 100%;
   height: 100%;
 }
+.headingdetails{
+  text-align: center;
+  background-color: #f8fbfd;
+}
 
 .container{
   margin-left: 7em;
