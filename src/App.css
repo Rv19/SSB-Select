@@ -14,8 +14,27 @@
   height: 100%;
 }
 .headingdetails{
+
   text-align: center;
   background-color: #f8fbfd;
+}
+
+
+.stack-grid1{
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6587aa,#557faa); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6587aa,#557faa); 
+  height: 100%;
+  display:inline-block;
+  width:100%;
+  text-align: center;
+ 
+}
+
+.stack-grid2 {
+  display:inline-block;
+  text-align: center;
+  padding: 10px;
 }
 
 .container{
@@ -38,18 +57,17 @@
   
 }
 
-.stack-grid1{
+ .stack-grid3{
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #f8fbfd,#557faa); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #f8fbfd,#557faa); 
   height: 100%;
   width: 200%;
-}
+} 
 
-.stack-grid2 {
+.stack-grid4 {
   display: flex;
-padding-bottom: 2ex;
-  padding-top: 2em;
+
 }
 
 .contact-grid{
@@ -210,6 +228,11 @@ font-weight: bold;
   color: white;
 }
 
+.card{
+  display:flex;
+margin: auto;
+}
+
 .card1{
   padding:2em;
   display: inline;
@@ -253,4 +276,78 @@ margin: auto;
   width: 100%;
   margin: auto;
   padding-bottom: em ;
+}
+
+.middle{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.cards{
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  margin-left: 50px;
+  margin-top: 50px;
+  display:inline-block;
+  margin: auto;
+}
+
+.front,.back{
+  width: 100%;
+  height:100%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .6s linear;
+}
+
+.front img{
+  height: 100%;
+}
+.front{
+  transform: perspective(600px) rotateY(0deg);
+}
+
+.back{
+  background: #f1f1f1;
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.back-content{
+  color:#2c3e50;
+  text-align: center;
+  width: 100%;
+}
+
+.sm{
+  margin:20px 0;
+}
+.sm a{
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  color: #223679;
+  font-size: 18px;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+.sm a:hover{
+  background: #6587aa;
+  color: white;
+}
+
+.cards:hover > .front{
+  transform: perspective(600px) rotateY(-180deg);
+}
+
+.cards:hover > .back{
+  transform: perspective(600px) rotateY(0deg);
+
 }

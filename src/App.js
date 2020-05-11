@@ -16,6 +16,7 @@ class App extends Component {
         <Navigation>
                 <Link to="/whywe">Why we?</Link>
                 <Link to="/whyssb">Why SSB?</Link>
+                <Link to="/entries">Entries</Link>
                
             </Navigation>
         </Header>
@@ -23,6 +24,7 @@ class App extends Component {
         <Navigation>
                 <Link to="/whywe">Why we?</Link>
                 <Link to="/whyssb">Why SSB?</Link>
+                <Link to="/entries">Entries</Link>
            
             </Navigation>
         </Drawer>

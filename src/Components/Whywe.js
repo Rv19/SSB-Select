@@ -1,6 +1,5 @@
 import React,{Component} from 'react';
 import { Grid, Cell } from 'react-mdl';
-import Education from './Education';
 
 class Whywe extends Component{
     render(){
@@ -65,9 +64,7 @@ Hope we will see you soon and join now before the group gets filled.(Separate gr
             </div>
                 </Cell>
                 
-            {/* <Cell className="resume-right-col" col={8} >
-            <Education/>
-                </Cell>  */}
+         
             </Grid>
             </div>
         )
