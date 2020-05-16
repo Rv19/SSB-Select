@@ -14,6 +14,7 @@ class App extends Component {
     <Layout>
         <Header  className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">SSB SELECT</Link>} scroll>
         <Navigation>
+        <Link to="/mock">Mock Test</Link>
                 <Link to="/whywe">Why we</Link>
                 <Link to="/whyssb">Why SSB</Link>
                 <Link to="/entries">Entries</Link>
@@ -22,6 +23,7 @@ class App extends Component {
         </Header>
         <Drawer> <a href ="/"className="draw"> SSB SELECT</a>
         <Navigation>
+        <Link to="/mock">Mock Test</Link>
                 <Link to="/whywe">Why we</Link>
                 <Link to="/whyssb">Why SSB</Link>
                 <Link to="/entries">Entries</Link>

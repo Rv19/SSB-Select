@@ -313,6 +313,15 @@ margin: auto;
   transition: transform .6s linear;
 }
 
+.front2,.back2{
+  width: 50%;
+  height:50%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  transition: transform .6s linear;
+}
+
+
 .front img{
   height: 100%;
 }

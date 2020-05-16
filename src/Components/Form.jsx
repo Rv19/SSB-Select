@@ -19,7 +19,8 @@ class Form extends Component{
 			name:'',
 			Email:'',
 			Mobile:'',
-			top:-209,
+			Stack:'',
+			top:-209
 		};
 		this.timeout=null;
 	}
@@ -32,17 +33,16 @@ class Form extends Component{
 		e.preventDefault()
 		console.log(this.state)
 
-		
-
 axios.post("https://sheet.best/api/sheets/bd7a12a5-bd2b-4b2f-8a92-e72dd9a3d3e4",
 this.state).then(response =>
 	{
 		console.log(response)})
 	.catch(error=>{console.log(error.repsonse)})
 	this.setState({
-		name: '',
+		name:'',
 		Email:'',
-		Mobile:''
+		Mobile:'',
+		Stack:''
 	  });
 
 }
@@ -61,7 +61,7 @@ showNotification=()=>{
 
 
     render(){
-		const{name,Email,Mobile}=this.state
+		const{name,Email,Mobile,Stack}=this.state
         return(
 <div>
 	<form onSubmit={this.submitHandler} >
@@ -88,6 +88,14 @@ showNotification=()=>{
     <span class="input-group-text" id="basic-addon1">Mobile</span>
   </div>
 <input type="text" class="form-control" aria-describedby="emailHelp" name="Mobile" value={Mobile} onChange={this.changeHandler}></input>
+
+</div>
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1">Want to take:</span>
+  </div>
+<input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Batch or Mock Test Stack" name="Stack" value={Stack} onChange={this.changeHandler}></input>
 
 </div>
 <div className="submit">

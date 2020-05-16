@@ -4,6 +4,7 @@ import Landingpage from './Landingpage';
 import Whyssb from './Whyssb';
 import Whywe from './Whywe';
 import Entries from './Entries';
+import TechnicalStack from './TechnicalStack';
 
 
 const Main = () => (
@@ -12,7 +13,7 @@ const Main = () => (
     <Route path="/entries" component={Entries} />
     <Route path="/whywe" component={Whywe} />
     <Route path="/whyssb" component={Whyssb} />
-   
+    <Route path="/mock" component={TechnicalStack} />
   </Switch>
 )
 
