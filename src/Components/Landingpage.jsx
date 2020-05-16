@@ -18,7 +18,7 @@ class Landingpage extends Component{
 
 
           <div className="trial">
-          <p>Fill the Form to join Demo Group </p>
+          <p>Fill the Form to join Batch </p>
             <Form/>
         </div>
             </div>

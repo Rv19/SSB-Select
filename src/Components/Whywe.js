@@ -4,17 +4,21 @@ import { Grid, Cell } from 'react-mdl';
 class Whywe extends Component{
     render(){
         return(
-            <div>
+            <div className="rows">
+                <h3 className="headingdetails">Fill the Form on Home Page to Join Batch</h3>
+                
             <Grid>
-            <Cell col={12}>
-              <div style={{textAlign:'center'}}>
+            <Cell col={6}>
+              <div  className="col-xs-3" style={{textAlign:'center'}}>
               <img
-                src="aqaqaqa.png"
+                src="batch22.png"
                 alt="avatar"
-                style={{height: '300px',width:'300px',margin:'auto'}}
+                className="col-xs-3"
+                style={{height: '500px',width:'300px',margin:'auto'}}
                />
             </div>
     <div style={{textAlign:'center'}}>
+        <h1>Upcoming</h1>
             <h4 style={{color: 'grey'}}>Preparing for a competition with all resources available should be every candidates endeavor.</h4>
              </div>
              <div classname="contact-gridr">
@@ -53,8 +57,7 @@ class Whywe extends Component{
 We can't teach you for SSB and cant guarantee your selection but we all can help you to guide towards the correct path
 
 <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
-<h5>Why monthly fees : 100rs</h5>
-<p>Want you to achieve that Plus on your chest number.We really want to help others thats why we want people who really working towards their aim and will take part seriously because that feel of preparing for SSB have its own value.So we just keep 100rs entry in Group(for per month), Because We dont want that due to someone(who just join for fun) will ruin all others preparation to overcome that only we make a entry fees.
+<p>Want you to achieve that Plus on your chest number.We really want to help others thats why we want people who really working towards their aim and will take part seriously because that feel of preparing for SSB have its own value.So we just keep some entry fees in Group, Because We dont want that due to someone(who just join for fun) will ruin all others preparation to overcome that only we make a entry fees.
 
 
 And we can understand too that you cant trust us without demo so thats why our batch will be free for demo for first three days.Try It If u like it then only continue.
@@ -64,6 +67,58 @@ Hope we will see you soon and join now before the group gets filled.(Separate gr
             </div>
                 </Cell>
                 
+                <Cell col={6}>
+                <div className="rows">
+              <div className="col-xs-3" style={{textAlign:'center'}}>
+              <img
+                src="batch1.png"
+                alt="avatar"
+                className="col-xs-3"
+                style={{height: '500px',width:'300px',margin:'auto'}}
+               />
+            </div>
+            </div>
+    <div style={{textAlign:'center'}}>
+        <h1>Done</h1>
+            <h4 style={{color: 'grey'}}>Preparing for a competition with all resources available should be every candidates endeavor.</h4>
+             </div>
+             <div classname="contact-gridr">
+            <hr  style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
+            <h3>Feedback</h3>
+            <div className="rows">
+            <div  className="col-xs-3" style={{textAlign:'center'}}>
+              <img
+                src="course.PNG"
+                alt="avatar"
+                className="col-xs-3"
+                style={{height: '500px',width:'350px',margin:'auto'}}
+               />
+            </div>
+            </div>
+            <hr  style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
+            <div className="rows">
+            <div  className="col-xs-3" style={{textAlign:'center'}}>
+              <img
+                src="material.PNG"
+                alt="avatar"
+                className="col-xs-3"
+                style={{height: '500px',width:'350px',margin:'auto'}}
+               />
+            </div>
+            </div>
+            <hr  style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
+            <div className="rows">
+            <div  className="col-xs-3" style={{textAlign:'center'}}>
+              <img
+                src="mentor.PNG"
+                alt="avatar"
+                className="col-xs-3"
+                style={{height: '500px',width:'350px',margin:'auto'}}
+               />
+            </div>
+            </div>
+           </div>
+                </Cell>
          
             </Grid>
             </div>

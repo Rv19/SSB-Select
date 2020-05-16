@@ -22,8 +22,8 @@
 
 .stack-grid1{
   background: #000000; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #6587aa,#557faa); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #6587aa,#557faa); 
+  background: -webkit-linear-gradient(to right, #6587aa,#9fb3c7); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6587aa,#9fb3c7); 
   height: 100%;
   display:inline-block;
   width:100%;
@@ -49,6 +49,13 @@
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #f8fbfd,#557faa); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #f8fbfd,#557faa); 
+}
+
+.draw{
+  display:flex;
+  padding: 1em;
+  font-size: 1.5em;
+  
 }
 
 .projects-grid2 {
@@ -293,6 +300,7 @@ margin: auto;
   margin-left: 50px;
   margin-top: 50px;
   display:inline-block;
+
   margin: auto;
 }
 
