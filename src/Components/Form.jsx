@@ -93,9 +93,9 @@ showNotification=()=>{
 
 <div class="input-group mb-3">
   <div class="input-group-prepend">
-    <span class="input-group-text" id="basic-addon1">Want to take:</span>
+    <span class="input-group-text" id="basic-addon1">For:</span>
   </div>
-<input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Batch or Mock Test Stack" name="Stack" value={Stack} onChange={this.changeHandler}></input>
+<input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Batch or Mock Test" name="Stack" value={Stack} onChange={this.changeHandler}></input>
 
 </div>
 <div className="submit">
