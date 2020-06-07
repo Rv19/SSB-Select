@@ -8,9 +8,17 @@ class Landingpage extends Component{
             <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
           <Cell col={12}>
+            
           <div className="banner-text">
+          <div class="but p-3 ">
+          <a class="btn btn-primary but" style={{width:'100%',height:'30px'}} href="https://tny.sh/OnlineCourse" target="_blank" role="button">Free Udemy Course</a>
+             </div>
+             <div class="pr-3 pl-3 ">
+                  <a class="btn btn-primary but" style={{width:'100%',height:'30px'}} href="https://tny.sh/ssb_select" target="_blank" role="button">OIR Series</a>
+            </div>
+            
             <img
-              src="aqaqaqa.png"
+              src="aqaqaq.png"
               alt="avatar"
               className="avatar-img"
               />

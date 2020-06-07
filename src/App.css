@@ -208,15 +208,15 @@ font-weight: bold;
 /* contact page css */
 
 .avatar-img {
-  height: 250px;
-  padding-top: 2em;
+  height: 200px;
+  padding-top: 1em;
 }
-.avatar-img:hover{
+/* .avatar-img:hover{
   height: 250px;
   transform:
    scale(1.05);
   padding-top: 2em;
-}
+} */
 
 .banner-text {
   background-color: black;
@@ -264,6 +264,9 @@ padding: 0.5em;
 
 }
 
+.but{
+  justify-content: space-between;
+}
 .social-links {
   display: flex;
   justify-content: space-between;
